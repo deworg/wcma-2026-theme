@@ -1,0 +1,13 @@
+@use "../utils/colors" as colors;
+@use "../utils/fonts" as fonts;
+
+body {
+  font-family: fonts.$body;
+  background-color: colors.$white;
+  color: colors.$black;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: fonts.$headline;
+  color: colors.$blue;
+}

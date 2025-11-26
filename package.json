@@ -1,0 +1,11 @@
+{
+  "name": "wcma-26",
+  "scripts": {
+    "build": "sass scss/index.scss style.css --style=compressed --no-source-map",
+    "watch": "sass --watch scss/index.scss:style.css --style=compressed --no-source-map"
+  },
+  "devDependencies": {
+    "sass": "^1.94.2"
+  }
+}
+
