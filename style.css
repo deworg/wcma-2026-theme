@@ -25,8 +25,10 @@ body {
 
 .taxonomy-wcb_organizer_team a {
     border: 2px solid var(--wp--preset--color--contrast) !important;
-    padding: 0.3rem;
+    padding: 0.2rem 0.5rem !important;
     border-radius: 50px;
+    text-decoration: none !important;
+    color: var(--wp--preset--color--contrast) !important;
 }
 
 :where(.wp-block-button__link) {
