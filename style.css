@@ -21,7 +21,7 @@ body {
 .wp-block-button.is-style-fill .wp-block-button__link,
 .wp-block-button.is-style-fill .wp-element-button {
     background-color: var(
-        --wp--preset-color-accent-1
+        --wp--preset--color--accent-1
     ) !important; /* Replace with your desired color */
 }
 
