@@ -19,7 +19,7 @@ body {
 }
 
 :where(.wp-block-button__link) {
-    border-radius: 0;
+    /*   border-radius: 0; */
     font-weight: 600 !important;
 }
 
