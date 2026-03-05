@@ -23,6 +23,10 @@ body {
     -webkit-font-smoothing: antialiased;
 }
 
+.taxonomy-wcb_organizer_team a {
+    border: 1px solid var(--wp--preset--color--accent-1) !important;
+}
+
 :where(.wp-block-button__link) {
     /*   border-radius: 0; */
     font-weight: 600 !important;
