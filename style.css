@@ -1,1 +1,83 @@
-@font-face{font-family:"Outfit";src:url("https://cdn.jsdelivr.net/gh/nielslange/wcma-26@trunk/fonts/Outfit-VariableFont_wght.ttf") format("truetype");font-weight:100 900;font-style:normal;font-display:swap}@font-face{font-family:"Inter";src:url("https://cdn.jsdelivr.net/gh/nielslange/wcma-26@trunk/fonts/Inter-VariableFont_opsz%2Cwght.ttf") format("truetype");font-weight:100 900;font-style:normal;font-display:swap}@font-face{font-family:"Inter";src:url("https://cdn.jsdelivr.net/gh/nielslange/wcma-26@trunk/fonts/Inter-Italic-VariableFont_opsz%2Cwght.ttf") format("truetype");font-weight:100 900;font-style:italic;font-display:swap}body{font-family:"Inter",system-ui,-apple-system,BlinkMacSystemFont,sans-serif;background-color:#fafafa;color:#0d0d0d}h1,h2,h3,h4,h5,h6{font-family:"Outfit",system-ui,-apple-system,BlinkMacSystemFont,sans-serif;color:#669bbc}.single-wcb_sponsor main .size-post-thumbnail{display:none}
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    background-color: #f8f6f0;
+    -webkit-font-smoothing: antialiased;
+}
+
+.gradient-text {
+    background: linear-gradient(to right, #f76919 20%, #032e5e 60%);
+    background-clip: text;
+    color: transparent;
+}
+
+@media (max-width: 782px) {
+    .wp-block-columns.column-reverse-on-mobile {
+        flex-direction: column-reverse;
+    }
+}
+
+.duotone {
+    position: relative;
+    display: inline-block;
+    background-color: #f76919;
+}
+
+.duotone img {
+    display: block;
+    filter: grayscale(100%) contrast(1);
+    mix-blend-mode: darken;
+    opacity: 1;
+}
+
+.duotone::after {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background-color: #032e5e;
+    mix-blend-mode: lighten;
+    pointer-events: none;
+}
+
+mark.has-inline-color {
+    background: none;
+}
+
+footer.wp-block-template-part {
+    margin-block-start: 0 !important;
+}
+
+.warm-gradient {
+    background: linear-gradient(135deg, #ffcba4 0%, #ffd6a5 30%, #e5bdf6 100%);
+}
+
+.custom-nl-form input[type="text"],
+.custom-nl-form input[type="email"],
+.custom-nl-form textarea {
+    padding: 0.75rem !important;
+    border: 1px solid white !important;
+    background: none !important;
+    border-radius: 16px !important;
+    font: inherit;
+    color: white;
+}
+
+.custom-nl-form button.wp-block-button__link {
+    color: #1b2238 !important;
+}
+
+.custom-contact-form input[type="text"],
+.custom-contact-form input[type="email"],
+.custom-contact-form textarea {
+    padding: 0.75rem !important;
+    border: 1px solid #1b2238 !important;
+    background: none !important;
+    border-radius: 16px !important;
+    font: inherit;
+}
+
+.square-icon img {
+    transform: rotate(-7deg);
+}
