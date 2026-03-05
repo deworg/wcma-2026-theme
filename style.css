@@ -24,7 +24,9 @@ body {
 }
 
 .taxonomy-wcb_organizer_team a {
-    border: 1px solid var(--wp--preset--color--accent-1) !important;
+    border: 2px solid var(--wp--preset--color--contrast) !important;
+    padding: 0.3rem;
+    border-radius: 50px;
 }
 
 :where(.wp-block-button__link) {
