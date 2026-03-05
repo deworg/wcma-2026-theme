@@ -117,3 +117,38 @@ footer.wp-block-template-part {
 .square-icon img {
     transform: rotate(-7deg);
 }
+
+.card {
+    position: relative;
+    overflow: hidden;
+}
+
+.card__text {
+    position: relative;
+    z-index: 2;
+    transition: color 0.35s ease-out;
+}
+
+.card:hover .card__text > :is(p, h2, h3, ul, ol) {
+    color: black !important;
+}
+
+.card::before {
+    content: "";
+    height: 100%;
+    width: 0%;
+    position: absolute;
+    right: 0;
+    top: 0;
+    opacity: 0;
+    z-index: 1;
+    background: #cef453;
+    transition:
+        width 0.35s ease-out,
+        opacity 0.1s ease-out;
+}
+
+.card:hover::before {
+    width: 100%;
+    opacity: 1;
+}
