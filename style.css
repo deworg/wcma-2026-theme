@@ -25,7 +25,7 @@ body {
 
 .wp-block-button.is-style-fill .wp-block-button__link,
 .wp-block-button.is-style-fill .wp-element-button {
-    transition: all 1s ease;
+    transition: all 0.35s ease;
     background-color: var(
         --wp--preset--color--accent-1
     ) !important; /* Replace with your desired color */
