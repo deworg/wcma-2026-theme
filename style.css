@@ -18,6 +18,10 @@ body {
     -webkit-font-smoothing: antialiased;
 }
 
+:where(.wp-block-button__link) {
+    border-radius: 0;
+}
+
 .wp-block-button.is-style-fill .wp-block-button__link,
 .wp-block-button.is-style-fill .wp-element-button {
     background-color: var(
