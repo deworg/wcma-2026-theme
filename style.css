@@ -4,10 +4,6 @@
 
 :root {
     --primary: #1e40af;
-    --primary-dark: #1e3a8a;
-    --accent: #f59e0b;
-    --text: #1f2937;
-    --bg: #f8fafc;
 }
 
 /* ========================================
@@ -19,7 +15,6 @@ html {
 }
 
 body {
-    background-color: #f8f6f0;
     -webkit-font-smoothing: antialiased;
 }
 
