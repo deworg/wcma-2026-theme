@@ -30,6 +30,13 @@ body {
     ) !important; /* Replace with your desired color */
 }
 
+.wp-block-button.is-style-fill .wp-block-button__link:hover,
+.wp-block-button.is-style-fill .wp-element-button:hover {
+    background-color: var(
+        --wp--preset--color--accent-2
+    ) !important; /* Replace with your desired color */
+}
+
 .gradient-text {
     background: linear-gradient(to right, #f76919 20%, #032e5e 60%);
     background-clip: text;
