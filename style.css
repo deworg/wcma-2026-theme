@@ -20,7 +20,7 @@ body {
 
 :where(.wp-block-button__link) {
     border-radius: 0;
-    font-weight: 600;
+    font-weight: 600 !important;
 }
 
 .wp-block-button.is-style-fill .wp-block-button__link,
