@@ -129,7 +129,7 @@ footer.wp-block-template-part {
     transition: color 0.35s ease-out;
 }
 
-.card:hover .card__text > :is(p, h2, h3, ul, ol) {
+.card:hover .card__text > :is(p, h2, h3, ul, ol, span) {
     color: var(--wp--preset--color--base) !important;
 }
 
