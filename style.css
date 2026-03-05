@@ -130,7 +130,7 @@ footer.wp-block-template-part {
 }
 
 .card:hover .card__text > :is(p, h2, h3, ul, ol) {
-    color: black !important;
+    color: var(--wp--preset--color--base) !important;
 }
 
 .card::before {
@@ -142,7 +142,7 @@ footer.wp-block-template-part {
     top: 0;
     opacity: 0;
     z-index: 1;
-    background: #cef453;
+    background: var(--wp--preset--color--accent-1);
     transition:
         width 0.35s ease-out,
         opacity 0.1s ease-out;
