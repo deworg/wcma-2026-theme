@@ -121,10 +121,10 @@ footer.wp-block-template-part {
 .card {
     position: relative;
     overflow: hidden;
+}
 
-    :hover {
-        cursor: pointer;
-    }
+.card:hover {
+    cursor: pointer;
 }
 
 .card__text {
