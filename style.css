@@ -263,7 +263,7 @@ form textarea {
     }
 
     #tix .tix-tickets-list tbody tr {
-        border-bottom: 1px solid var(--wp--preset--color--accent-5);
+        border-bottom: 1px solid var(--wp--preset--color--accent-4);
         padding-block: calc(var(--wp--style--block-gap, 16px) / 2);
     }
 
