@@ -23,20 +23,22 @@ body {
     -webkit-font-smoothing: antialiased;
 }
 
+mark.has-inline-color {
+    background: none;
+}
+
+footer.wp-block-template-part {
+    margin-block-start: 0 !important;
+}
+
+/* === Min Height Cover Block ---------------------------------------- */
 @media (max-width: 782px) {
     .cover-sizer {
         min-height: 300px !important;
     }
 }
 
-.taxonomy-wcb_organizer_team a {
-    border: 2px solid var(--wp--preset--color--contrast) !important;
-    padding: 0.2rem 0.5rem !important;
-    border-radius: 50px;
-    text-decoration: none !important;
-    color: var(--wp--preset--color--contrast) !important;
-}
-
+/* === Button Styles ---------------------------------------- */
 :where(.wp-block-button__link) {
     /*   border-radius: 0; */
     font-weight: 600 !important;
@@ -57,24 +59,7 @@ body {
     ) !important; /* Replace with your desired color */
 }
 
-@media (max-width: 782px) {
-    .wp-block-columns.column-reverse-on-mobile {
-        flex-direction: column-reverse;
-    }
-}
-
-mark.has-inline-color {
-    background: none;
-}
-
-footer.wp-block-template-part {
-    margin-block-start: 0 !important;
-}
-
-.warm-gradient {
-    background: linear-gradient(135deg, #ffcba4 0%, #ffd6a5 30%, #e5bdf6 100%);
-}
-
+/* === Form Styles ---------------------------------------- */
 form input[type="text"],
 form input[type="email"],
 form textarea {
@@ -86,22 +71,20 @@ form textarea {
     color: var(--wp--preset--color--contrast);
 }
 
-.wcb_organizer .wp-block-post-content p {
-    text-align: center;
-}
-
+/* === Column Reverse on Mobile ---------------------------------------- */
 @media (max-width: 782px) {
     .wp-block-columns.column-reverse-on-mobile {
         flex-direction: column-reverse;
     }
 }
 
-mark.has-inline-color {
-    background: none;
-}
-
-footer.wp-block-template-part {
-    margin-block-start: 0 !important;
+/* === Organizer Site ---------------------------------------- */
+.taxonomy-wcb_organizer_team a {
+    border: 2px solid var(--wp--preset--color--contrast) !important;
+    padding: 0.2rem 0.5rem !important;
+    border-radius: 50px;
+    text-decoration: none !important;
+    color: var(--wp--preset--color--contrast) !important;
 }
 
 .wcb_organizer .wp-block-post-content p {
