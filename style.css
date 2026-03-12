@@ -91,8 +91,3 @@ form textarea {
 .wcb_organizer .wp-block-post-content p {
     text-align: center;
 }
-
-.blog-teaser-start.has-global-padding {
-    padding-left: 0 !important;
-    padding-right: 0 !important;
-}
