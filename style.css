@@ -107,16 +107,11 @@ form textarea {
 }
 
 /* Haupt-Tabelle */
-#tix .tix_tickets_table {
+table.tix_tickets_table {
     width: 100%;
-    border-collapse: separate;
-    border-spacing: 0;
-    background: #fff;
-    border: 1px solid var(--wp--preset--color--accent-5);
-    border-radius: var(--radius);
-    box-shadow: var(--shadow);
-    overflow: hidden;
-    margin-block: var(--wp--style--block-gap, 16px);
+    border-collapse: collapse;
+    margin: 1.5em 0;
+    font-size: 1rem;
 }
 
 table.tix_tickets_table th,
@@ -176,7 +171,7 @@ table.tix_tickets_table .tix-ticket-unavailable .tix-ticket-price {
     margin-top: 1em;
 }
 
-#tix input[type="submit"] {
+.tix-submit input[type="submit"] {
     background-color: #0073aa;
     color: #fff;
     border: none;
@@ -186,7 +181,7 @@ table.tix_tickets_table .tix-ticket-unavailable .tix-ticket-price {
     cursor: pointer;
 }
 
-#tix input[type="submit"]:hover {
+.tix-submit input[type="submit"]:hover {
     background-color: #005d8f;
 }
 
