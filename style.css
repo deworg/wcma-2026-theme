@@ -116,7 +116,7 @@ table.tix_tickets_table {
 
 table.tix_tickets_table th,
 table.tix_tickets_table td {
-    padding: var(--wp--preset-spacing--small);
+    padding: var(--wp--preset--spacing--small);
     text-align: left;
     vertical-align: top;
 }
