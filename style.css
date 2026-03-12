@@ -92,6 +92,7 @@ form textarea {
     text-align: center;
 }
 
-.blog-teaser-start {
-    padding: 0 !important;
-}
+/* .blog-teaser-start {
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+} */
