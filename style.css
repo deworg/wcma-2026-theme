@@ -191,29 +191,3 @@ table.tix_tickets_table .tix-ticket-unavailable .tix-ticket-price {
     border-radius: 3px;
     margin-right: 0.5em;
 }
-
-/* Responsive */
-@media (max-width: 600px) {
-    table.tix_tickets_table,
-    table.tix_tickets_table thead,
-    table.tix_tickets_table tbody,
-    table.tix_tickets_table tr,
-    table.tix_tickets_table th,
-    table.tix_tickets_table td {
-        display: block;
-    }
-
-    table.tix_tickets_table thead {
-        display: none;
-    }
-
-    table.tix_tickets_table td {
-        border-bottom: none;
-        padding: 0.4em 0.6em;
-    }
-
-    table.tix_tickets_table tr {
-        border-bottom: 1px solid #ddd;
-        margin-bottom: 0.5em;
-    }
-}
