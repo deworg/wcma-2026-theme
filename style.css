@@ -123,12 +123,8 @@ table.tix_tickets_table td {
 
 table.tix_tickets_table thead th {
     background-color: var(--wp--preset--color--contrast);
-    color: var(--wp--preset--color--main);
+    color: var(--wp--preset--color--base);
     font-weight: 600;
-}
-
-table.tix_tickets_table tbody tr:hover {
-    background-color: #fafafa;
 }
 
 /* Ticket-Name Spalte */
