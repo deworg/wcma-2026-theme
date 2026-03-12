@@ -132,7 +132,7 @@ form textarea {
 }
 
 #tix .tix-column-remaining {
-    color: var(--wp--preset--color--contrast-3);
+    color: var(--wp--preset--color--contrast);
 }
 
 /* --- Ticket titles &amp; excerpts --- */
@@ -229,6 +229,7 @@ form textarea {
 #tix .tix-submit .tix-checkout-button {
     background: var(--wp--preset--color--contrast);
     border: 0;
+    border-radius: var(--radius);
     color: var(--wp--preset--color--base);
     font-family: var(--wp--preset--font-family--plus-jakarta-sans);
     font-size: var(--wp--preset--font-size--medium);
