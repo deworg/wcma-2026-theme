@@ -100,7 +100,7 @@ form textarea {
     border-collapse: separate;
     border-spacing: 0;
     background: #fff;
-    border: 1px solid var(--wp--preset--color--accent-5);
+    border: 1px solid var(--wp--preset--color--accent-4);
     border-radius: var(--radius);
     box-shadow: var(--shadow);
     overflow: hidden;
@@ -121,7 +121,7 @@ form textarea {
 #tix .tix_tickets_table tbody td {
     padding: clamp(12px, var(--wp--style--block-gap, 16px), 18px);
     vertical-align: top;
-    border-bottom: 1px solid var(--wp--preset--color--accent-5);
+    border-bottom: 1px solid var(--wp--preset--color--accent-4);
     font-size: var(--wp--preset--font-size--normal);
     text-align: left;
 }
@@ -163,7 +163,7 @@ form textarea {
 #tix textarea,
 #tix select {
     background: #fff;
-    border: 1px solid var(--wp--preset--color--accent-5);
+    border: 1px solid var(--wp--preset--color--accent-4);
     border-radius: var(--radius);
     font-size: var(--wp--preset--font-size--normal);
     transition:
@@ -325,7 +325,7 @@ form textarea {
 
 /* --- Payment method container list --- */
 #tix .tix-payment-method-container {
-    border: 1px solid var(--wp--preset--color--accent-5);
+    border: 1px solid var(--wp--preset--color--accent-4);
     border-radius: var(--radius);
     padding: calc(var(--wp--style--block-gap, 16px) * 0.75);
     background: #fff;
