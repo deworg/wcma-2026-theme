@@ -122,7 +122,7 @@ table.tix_tickets_table td {
 }
 
 table.tix_tickets_table thead th {
-    background-color: var(--wp--preset--color--contrast);
+    background-color: var(--wp--preset--color--accent-4);
     color: var(--wp--preset--color--base);
     font-weight: 600;
 }
