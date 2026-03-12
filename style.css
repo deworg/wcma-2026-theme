@@ -116,16 +116,15 @@ table.tix_tickets_table {
 
 table.tix_tickets_table th,
 table.tix_tickets_table td {
-    padding: 0.75em 1em;
+    padding: var(--wp--preset-spacing--small);
     text-align: left;
     vertical-align: top;
-    border-bottom: 1px solid #ddd;
 }
 
 table.tix_tickets_table thead th {
-    background-color: #f5f5f5;
+    background-color: var(--wp--preset--color--contrast);
+    color: var(--wp--preset--color--main);
     font-weight: 600;
-    border-bottom: 2px solid #ccc;
 }
 
 table.tix_tickets_table tbody tr:hover {
