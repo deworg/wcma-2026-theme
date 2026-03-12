@@ -171,7 +171,7 @@ table.tix_tickets_table .tix-ticket-unavailable .tix-ticket-price {
     margin-top: 1em;
 }
 
-.tix-submit input[type="submit"] {
+#tix input[type="submit"] {
     background-color: #0073aa;
     color: #fff;
     border: none;
@@ -181,7 +181,7 @@ table.tix_tickets_table .tix-ticket-unavailable .tix-ticket-price {
     cursor: pointer;
 }
 
-.tix-submit input[type="submit"]:hover {
+#tix input[type="submit"]:hover {
     background-color: #005d8f;
 }
 
