@@ -30,6 +30,16 @@ footer.wp-block-template-part {
     }
 }
 
+@media (max-width: 960px) {
+    .main-navigation ul {
+        display: none;
+    }
+
+    .menu-toggle {
+        display: block;
+    }
+}
+
 /* === Button Styles ---------------------------------------- */
 :where(.wp-block-button__link) {
     /*   border-radius: 0; */
