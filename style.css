@@ -30,13 +30,34 @@ footer.wp-block-template-part {
     }
 }
 
-@media (max-width: 960px) {
-    .main-navigation ul {
-        display: none;
+/* === Navigation Block ---------------------------------------- */
+/* Core-Styles bei 600px neutralisieren */
+@media (min-width: 600px) {
+    .wp-block-navigation__responsive-container-open:not(.always-shown) {
+        display: flex;
     }
 
-    .menu-toggle {
-        display: block;
+    .wp-block-navigation__responsive-container:not(.hidden-by-default):not(
+            .is-menu-open
+        ) {
+        display: none;
+    }
+}
+
+/* Navigation ab 880px als Desktop-Menü anzeigen */
+@media (min-width: 880px) {
+    .wp-block-navigation__responsive-container-open:not(.always-shown) {
+        display: none !important;
+    }
+
+    .wp-block-navigation__responsive-container:not(.hidden-by-default):not(
+            .is-menu-open
+        ) {
+        display: block !important;
+        width: 100%;
+        position: relative;
+        z-index: auto;
+        background-color: inherit;
     }
 }
 
