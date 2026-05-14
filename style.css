@@ -23,10 +23,10 @@ footer.wp-block-template-part {
     margin-block-start: 0 !important;
 }
 
-#tix-attendees .avatar {
+/* #tix-attendees .avatar {
     width: 96px !important;
     height: 96px !important;
-}
+} */
 
 /* === Min Height Cover Block ---------------------------------------- */
 @media (max-width: 782px) {
