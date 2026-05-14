@@ -383,7 +383,7 @@ form textarea {
 }
 
 #tix-attendees avatar {
-    width: 96px;
-    height: 96px;
-    float: none;
+    width: 96px !important;
+    height: 96px !important;
+    float: none !important;
 }
