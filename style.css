@@ -33,6 +33,12 @@ footer.wp-block-template-part {
     }
 }
 
+@media (max-width: 486px) {
+    #tix-attendees .tix-columns-3 li {
+        width: 100%;
+    }
+}
+
 /* === Min Height Cover Block ---------------------------------------- */
 @media (max-width: 782px) {
     .cover-sizer {
