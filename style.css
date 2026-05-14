@@ -26,7 +26,7 @@ footer.wp-block-template-part {
 #tix-attendees avatar {
     width: 96px !important;
     height: 96px !important;
-    float: none;
+    float: none !important;
 }
 
 /* === Min Height Cover Block ---------------------------------------- */
