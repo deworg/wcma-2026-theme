@@ -23,6 +23,12 @@ footer.wp-block-template-part {
     margin-block-start: 0 !important;
 }
 
+#tix-attendees avatar {
+    width: 96px !important;
+    height: 96px !important;
+    float: none !important;
+}
+
 /* === Min Height Cover Block ---------------------------------------- */
 @media (max-width: 782px) {
     .cover-sizer {
@@ -380,10 +386,4 @@ form textarea {
 
 #tix .camptix-invoice-toggle-wrapper {
     display: block;
-}
-
-#tix-attendees avatar {
-    width: 96px !important;
-    height: 96px !important;
-    float: none !important;
 }
