@@ -382,7 +382,7 @@ form textarea {
     display: block;
 }
 
-.tix-attendee-list img {
+.tix-attendee-list li img {
     width: 96px;
     height: 96px;
 }
