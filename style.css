@@ -382,7 +382,8 @@ form textarea {
     display: block;
 }
 
-.tix-attendee-list li img {
+#tix-attendees avatar {
     width: 96px;
     height: 96px;
+    float: none;
 }
