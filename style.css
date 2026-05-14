@@ -24,7 +24,7 @@ footer.wp-block-template-part {
 }
 
 #tix-attendees .avatar {
-    border-radius: 50%;
+    border-radius: 50% !important;
 }
 
 /* === Min Height Cover Block ---------------------------------------- */
