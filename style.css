@@ -381,3 +381,8 @@ form textarea {
 #tix .camptix-invoice-toggle-wrapper {
     display: block;
 }
+
+.tix-attendee-list img {
+    width: 96px;
+    height: 96px;
+}
