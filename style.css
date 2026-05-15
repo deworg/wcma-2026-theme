@@ -24,7 +24,7 @@ footer.wp-block-template-part {
 }
 
 /* === Logo Grid ---------------------------------------- */
-.logo-grid:where(figure) {
+.logo-grid ul li:where(figure) {
     margin: 0 !important;
 }
 
